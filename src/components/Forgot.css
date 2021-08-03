@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  } 
+  
+  body {
+    font-family: "Montserat";
+    background: white;
+  }
+  
+  .forgot-box {
+    width: 400px;
+    background-color: #f5ba13;
+    margin: 200px auto;
+    border-radius: 30px;
+  }
+  
+  .forgot-box h2 {
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  
+  .forgot-box form {
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+  
+  .forgot-entry{
+      margin: 10px 0px 10px 55px;
+      width: 200px;
+      height: 40px;
+      border-radius: 10px;
+  }
+  
+  .forgot-btn{
+      width: 100px;
+      height: 40px;
+      margin-top:20px;
+      margin-left: 100px;
+      background-color: white;
+      border-radius: 20px;
+      align-items: center;
+  }
+  .reset{
+    padding-bottom: 10px;
+    align-items: center;
+  }

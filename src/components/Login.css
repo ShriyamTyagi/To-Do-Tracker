@@ -1,0 +1,49 @@
+#log-btn{
+    /* position: absolute;
+    margin: 2% auto; */
+    margin: 10px 0 10px 110px;
+   
+   
+}
+.btn-log{
+    display: block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #f5ba13;
+    border-radius: 20px;
+}
+.input-group-lineup{
+    margin: 10px 0px 10px 55px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.main-div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5ba13;
+    margin-bottom: 50px;
+}
+.checkbox-class{
+    margin-left: 55px;
+}
+.login-box{
+    padding-top: 30px;
+    height: 450px;
+    border-radius: 10%;
+    width: 300px;
+    background-color: white;
+    margin-left: 200px;
+}
+.register-box{
+    padding-top: 30px;
+    height: 450px;
+    border-radius: 10%;
+    width: 300px;
+    margin-left: 450px;
+    background-color: white;
+}

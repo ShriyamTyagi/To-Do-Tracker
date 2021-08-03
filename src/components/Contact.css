@@ -1,0 +1,149 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-user{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5ba13;
+    margin-bottom: 50px;
+  }
+  
+  #user-1{
+    padding: 30px auto;
+    height: 600px;
+    border-radius: 10%;
+    width: 400px;
+    background-color: white;
+    margin-left: 200px;
+    text-align: center;
+  }
+  #user-2{
+    padding: 30px auto;
+    height: 600px;
+    border-radius: 10%;
+    width: 400px;
+    margin-left: 450px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .box-img{
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .box p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .contact-user li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+  } 
+  
+  .contact-user li a{
+    color: rgb(124, 122, 122);
+    text-decoration: none;
+    font-size: 30px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  .contact-user li a:hover{
+    color: #fa1f1f;
+  } 
+  
+  #about-wave{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    /* height: 100vh; */
+    background: #f6ba15;
+    overflow: hidden;
+  }
+  
+  #about-wave .wave{
+   position: absolute;
+   bottom: 0; 
+   left: 0;
+   width: 100%;
+   height: 100px;
+   background: url(../image/wave.png);
+   background-size: 1000px 100px;
+  }
+  
+  #about-wave .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  
+  @keyframes animate {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+  }
+  
+  #about-wave.wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  
+  @keyframes animate2 {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+  }
+  
+  #about-wave .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  
+  #about-wave .wave.wave4{
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 10px;
+  } 
+  
+  
